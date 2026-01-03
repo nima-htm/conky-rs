@@ -1,0 +1,10 @@
+[package]
+name = "conky-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sysinfo = "0.30"
+iced = {version = "0.14.0", features = ["tokio"]}
+tokio = {version = "1.48.0", features = ["full"]}
+futures = "0.3"

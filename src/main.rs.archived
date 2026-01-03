@@ -1,0 +1,31 @@
+// use sysinfo::System;
+// use std::thread;
+// use std::time::Duration;
+
+// fn main() {
+//     let mut sys = System::new_all();
+//     sys.refresh_cpu();
+
+//     thread::sleep(Duration::from_millis(100));
+
+//     let mut samples: Vec<f32> = Vec::with_capacity(10);
+//     println!("CPU rates:");
+
+//     for i in 0..10 {
+//         sys.refresh_cpu();
+//         let usage = sys.global_cpu_info().cpu_usage();
+//         samples.push(usage);
+//         println!("  rate {}: {:.1}%", i + 1, usage);
+
+//         if i < 9 {
+//             thread::sleep(Duration::from_millis(300));
+//         }
+//     }
+
+//     let avg: f32 = samples.iter().sum::<f32>() / samples.len() as f32;
+//     println!("\nAverage CPU usage over 10 iters: {:.1}%", avg);
+// }
+
+// fn main(){
+
+// }
